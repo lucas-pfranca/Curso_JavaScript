@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <script src="js/script02.js"></script>
+  </head>
+  <body id="body">
+    <div id="exibir">
+      <p id="texto">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora
+        delectus, laudantium blanditiis repellat magni a unde, eum nihil
+        deleniti adipisci, pariatur quia. Quia, a repellat amet nesciunt
+        accusantium explicabo quo? Necessitatibus eligendi voluptatum earum aut
+        recusandae molestias vero reiciendis laboriosam quas hic quia ea
+        doloremque pariatur voluptas laudantium atque sed qui, repellat et. Quod
+        iusto numquam ducimus temporibus aliquid. Ipsum. Ipsa atque ut nam id
+        temporibus eaque, quam at veritatis, iure molestiae repudiandae!
+        Reprehenderit voluptas ab nesciunt eaque suscipit voluptates, accusamus
+        ea quae reiciendis dolore labore, eligendi corrupti quas quibusdam?
+      </p>
+    </div>
+    <hr />
+    <form action="" onsubmit="return false">
+      <select name="elemento" id="elemento">
+        <option value="body">Body</option>
+        <option value="exibir">Exibir</option>
+        <option value="texto">Texto</option>
+      </select>
+      <label>Selecione uma propriedade:</label>
+      <select name="propriedade" id="propriedade">
+        <option value="padding">Padding</option>
+        <option value="margin">Margin</option>
+        <option value="font-size">Fonte Size</option>
+        <option value="font-family">Font Family</option>
+        <option value="font-weight">Estilo da Fonte</option>
+        <option value="background-color">Cor de Fundo</option>
+        <option value="color">Cor da Fonte</option>
+        <option value="opacity">Opacidade</option>
+        <option value="text-align">Alinhamento do Texto</option>
+        <option value="border">Borda</option>
+      </select>
+      <label>Digite o valor da propriedade</label>
+      <input type="text" name="valor" id="valor" />
+      <button onclick="mudar()">Mudar</button>
+    </form>
+  </body>
+</html>
